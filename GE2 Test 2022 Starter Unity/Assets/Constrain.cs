@@ -22,6 +22,7 @@ public class Constrain: SteeringBehaviour
     public void Start()
     {
             center = transform.position;
+            radius = GetComponent<NematodeSchool>().radius;
     }
 
     public override Vector3 Calculate()
